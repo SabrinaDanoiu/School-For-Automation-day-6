@@ -1,0 +1,8 @@
+selenium\pages\HomePage.class
+selenium\pages\BasePage.class
+selenium\pages\DropdownPage.class
+selenium\pages\LoginPage.class
+selenium\pages\CheckboxPage.class
+selenium\pages\RadioPage.class
+model\SignUpData.class
+selenium\pages\SignUpPage.class

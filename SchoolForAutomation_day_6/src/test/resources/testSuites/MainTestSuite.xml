@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Page Test Suite" verbose="2" parallel="true">
+
+    <test name="Sign Up and Login Test">
+        <classes>
+            <class name="tests.loginAndSignUp.SignUpAndLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Select Page Test">
+        <classes>
+            <class name="tests.mainAppPages.SelectTest"/>
+        </classes>
+    </test>
+
+    <test name="Radio Buttons Page Test">
+        <classes>
+            <class name="tests.mainAppPages.RadioButtonsTest"/>
+        </classes>
+    </test>
+
+    <test name="Table Page Test">
+        <classes>
+            <class name="tests.mainAppPages.TableTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,6 @@
+base\AppBaseTest.class
+base\BaseTest.class
+tests\login\SuccessfulLoginTest.class
+tests\login\InvalidUserNameTestLogin.class
+tests\signup\SuccessfulSignUpTest.class
+base\LoginBaseTest.class

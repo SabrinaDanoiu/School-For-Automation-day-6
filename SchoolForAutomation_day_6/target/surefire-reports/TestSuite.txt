@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.387 sec <<< FAILURE!
+successfulLoginTest(tests.login.SuccessfulLoginTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at base.BaseTest.goToLogInPage(BaseTest.java:26)
+	at tests.login.SuccessfulLoginTest.successfulLoginTest(SuccessfulLoginTest.java:14)
+successfulSignUpTest(tests.signup.SuccessfulSignUpTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at base.BaseTest.goToLogInPage(BaseTest.java:26)
+	at tests.signup.SuccessfulSignUpTest.successfulSignUpTest(SuccessfulSignUpTest.java:17)
